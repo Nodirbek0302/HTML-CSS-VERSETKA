@@ -1,0 +1,211 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+a{
+    text-decoration: none;
+}
+.header{
+    width: 100%;
+    padding: 202px 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url("../img/main.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+.block-header{
+    backdrop-filter: blur(20px);
+    background-color: rgba(196, 196, 196, 0.13);
+    max-width: 1100px;
+    margin: 0 auto;
+    padding: 3rem 15rem;
+    
+}
+.block-item{
+    max-width: 800px;
+    margin: 1rem auto;
+}
+.block-item .logo{
+    margin: 1.5rem 0;
+    text-align: center;
+}
+.block-txt{
+    color: #fff;
+    font-weight: 300;
+    font-size: 14px;
+    font-family: 'Montserrat';
+    text-align: center;
+    padding: 0.5rem 0  3rem 0;
+    line-height: 28px;
+
+}
+.block-txt2{
+    color: #fff;
+    font-weight: 500;
+    font-size: 14px;
+    font-family: tahoma ;
+    text-align: center;
+    padding-bottom: 1.5rem;
+}
+.mini{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 23px;  
+}
+.mini-block{
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+   backdrop-filter: blur(20px);
+   background: rgba(196, 196, 196, 0.13);
+   gap: 23px;
+   padding: 29px 70px;
+   
+}
+.mini-block img{
+    width: 36px;
+}
+.mini-block a{
+    cursor: pointer;
+    color: #fff;
+    transition: all 0.5s ease;
+}
+.mini-block a:hover{
+    color: #DA5D5D;
+}
+.footer{
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    left: 50%;
+    bottom: 43px;
+    transform: translateX(-50%);
+}
+.footer img{
+    width: 36px;
+}
+.footer p{
+    line-height: 30px;
+    font-size: 28px;
+    color: #fff;
+    font-weight: 500;
+    text-align: center;
+    font-family: sans-serif;
+    font-style: normal;
+}
+@media (max-width: 1100px){
+    .block-header {
+        padding: 48px 70px;
+    }
+    .mini-block {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        backdrop-filter: blur(20px);
+        background: rgba(196, 196, 196, 0.13);
+        gap: 23px;
+        padding: 20px 61px;
+        font-size: 10px;
+    }
+}
+@media (max-width: 850px){
+    .header{
+        padding: 36px 19px;
+        padding-bottom: 200px;
+    }
+   .block-header{
+      padding: 40px 20px;
+   }     
+}
+@media (max-width: 500px){
+    .mini{
+        flex-direction: column;
+    }
+    .block-item .logo img{
+        width: 217px;
+    }
+    .block-text2, .block-text{
+        font-size: 12px;
+    }
+    .block-text{
+        margin: 28px 0;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
